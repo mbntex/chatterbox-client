@@ -25,18 +25,22 @@
   </head>
   <body>
     <div id="main">
+    <div id ="friends">
+    <h2 id="friendsList">Friends:</h2>
+    </div>
       <h1>chatterbox</h1>
       <!-- Your HTML goes here! -->
     <!-- <form id='roomForm'> -->
-      <input list="rooms" name="rooms">
-      <select id="roomsList">
-        <option value="Lobby">Lobby</option>
-        <option value="Room 1">Room 1</option>
-      </select>
-      <button type="button" id="updateRoom">GO TO ROOM</button>
-      <button type="button" id="deleteRoom">DELETE ROOM</button>
-      <input type ="text" id="roomToAdd">
-      <button type="button" id="addRoom">ADD ROOM</button>
+      <!-- <input list="rooms" name="rooms"> -->
+      <form id="roomBox">
+        <select id="roomsList">
+          <option>Lobby</option>
+        </select>
+        <button type="button" id="updateRoom">GO TO ROOM</button>
+        <input type ="text" id="roomToAdd">
+        <button type="button" id="addRoom">ADD ROOM</button>
+      </form>
+      <!-- <button type="button" id="deleteRoom">DELETE ROOM</button> -->
     <!-- </form> -->
     <form id='messageBoxForm'>
       <input type ="text" id="currentMessageBox">
@@ -44,6 +48,8 @@
       <button type="button" id="submitMessage">SUBMIT MESSAGE!</button>
     </div>
   <button type="button" id="getMessagePool">GET MESSAGES</button>
+  <button type="button" id="deleteShownMessages">DELETE MESSAGES</button>
+    <!-- <div id = "roomSelect"></div> -->
     <div id="chats"></div>
   </body>
 </html>

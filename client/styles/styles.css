@@ -78,13 +78,60 @@ form input[type=text] {
     height: 46px;
     margin-bottom: 5px;
 }
+#friends {
+    float: left;
+    width: 200px;
+    height:800px;
+    clear: auto;
+    position:absolute;
+    left: 10px;
+    top:10px;
+    border: black solid 15px;
+    background: white;
+}
 
 .spinner img {
     padding: 10px;
 }
 
+.dateHolder {
+    background: red;
+}
+
 .friend {
     color: #fff;
     background-color: #0090da;
+}
+
+.userName {
+    color: blue;
+    float: left;
+    width: 33%;
+}
+
+.roomname {
+    float: right;
+    width:33%;
+    text-align: right;
+}
+
+.date {
+    width: 33%;
+    font-size: 9px;
+    float: right;
+}
+
+#chats {
+    border: black solid 8px;
+    width: 500px;
+}
+
+.specificMessage {
+    border: grey solid 2px;
+}
+.messageText {
+    width: 100%;
+    clear: left;
+    overflow: auto;
 }
 
